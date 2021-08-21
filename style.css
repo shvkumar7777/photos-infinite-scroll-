@@ -35,11 +35,11 @@ background: rgba(255, 255, 255, 0.8);
 }
 
 /* image - container */
-.image-container{
+.image_container{
     margin: 50px 25%;
 }
 
-.image-container img{
+.image_container img{
     width: 100%;
     margin-bottom: 7px;
 }
@@ -49,7 +49,7 @@ background: rgba(255, 255, 255, 0.8);
     h1{
         font-size: 25px;
     }
-    .image-container{
+    .image_container{
         margin: 10px;
     }
 }
@@ -58,7 +58,7 @@ background: rgba(255, 255, 255, 0.8);
     h1{
         font-size: 30px;
     }
-    .image-container{
+    .image_container{
         margin: 30px 3%;
     }
 }
