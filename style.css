@@ -33,3 +33,41 @@ background: rgba(255, 255, 255, 0.8);
     left: 50%;
     transform: translate(-50%,-50%);
 }
+
+/* image - container */
+.image-container{
+    margin: 50px 25%;
+}
+
+.image-container img{
+    width: 100%;
+    margin-bottom: 7px;
+}
+
+/* for the device which is lower than 600px*/
+@media screen and (max-width :600px){
+    h1{
+        font-size: 25px;
+    }
+    .image-container{
+        margin: 10px;
+    }
+}
+
+@media screen and (min-width:600px) and (max-width:1400px){
+    h1{
+        font-size: 30px;
+    }
+    .image-container{
+        margin: 30px 3%;
+    }
+}
+
+/* @media only screen and (orientation: landscape) {
+    h1{
+        font-size: 30px;
+    }
+    .image-container{
+        margin: 30px 3%;
+    }
+  } */
